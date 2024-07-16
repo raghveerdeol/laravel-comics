@@ -1,6 +1,10 @@
 @extends('layouts.app')
 
 @section('main-section')
+<div class="jumbotron">
+    <img src="{{Vite::asset('resources/img/jumbotron.jpg')}}" alt="teen titans">
+    <span>current series</span>
+</div>
 <section id="comics">
     <div class="card-list">
         @foreach ($comicsList as $comic )

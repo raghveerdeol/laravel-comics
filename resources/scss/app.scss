@@ -27,8 +27,26 @@ a{
 #shop-card{
     @import './partials/shop';
 }
+.jumbotron{
+    max-width: 100%;
+        img{
+            width: 100%;
+            max-height: 320px;
+            object-fit: cover;
+            object-position: top;
+        }
+        span{
+            position: relative;
+            bottom: 15px;
+            left: 140px;
+            background-color: #0282f9;
+            padding: .7rem 2rem;
+            text-transform: uppercase;
+            font-weight: 900;
+            }
+}
 #comics{
-    @import './partials/comics'
+    @import './partials/comics';
 }
 
 footer#app-footer{
