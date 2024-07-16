@@ -53,7 +53,7 @@
             </div>
 
             <div class="logo">
-                <img src="../../img/dc-logo-bg.png" alt="logo">
+                <img src="{{Vite::asset('resources/img/dc-logo-bg.png')}}" alt="logo">
             </div>
         </div>
         <AppSignUp/>

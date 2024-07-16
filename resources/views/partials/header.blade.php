@@ -2,7 +2,7 @@
 <header id="app-header">
     <div>
         <section class="main-logo">
-            <img src="../img/dc-logo.png" alt="main logo DC">
+            <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="main logo DC">
         </section>
 
         <nav class="nav-bar">
