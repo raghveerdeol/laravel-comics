@@ -444,7 +444,35 @@ Route::get('/comics', function(){
         ],
 
     ];
-    $data = [
+    $shops = [
+        [
+            'id'=> 1,
+            'title'=> "digital comics",
+            'img'=> 'resources/img/buy-comics-digital-comics.png',
+        ],
+        [
+            'id'=> 2,
+            'title'=> "dc merchandise",
+            'img'=> 'resources/img/buy-comics-merchandise.png',
+        ],
+        [
+            'id'=> 3,
+            'title'=> "subscription",
+            'img'=> 'resources/img/buy-comics-subscriptions.png',
+        ],
+        [
+            'id'=> 4,
+            'title'=> "comic shop locator",
+            'img'=> 'resources/img/buy-comics-shop-locator.png',
+        ],
+        [
+            'id'=> 5,
+            'title'=> "dc power visa",
+            'img'=> 'resources/img/buy-dc-power-visa.svg',
+        ],
+
+    ];
+    $comicsList = [
         [
             "title" => "Action Comics #1000: The Deluxe Edition",
             "description" => "The celebration of 1,000 issues of Action Comics continues with a new, Deluxe Edition of the amazing comic that won raves when it hit comics shops in April! This hardcover includes all the stories from that issue, plus the tale by writer Paul Levitz and artist Neal Adams that appeared in the Action Comics: 80 Years Of Superman hardcover, as well as all the variant covers, design sketches by Jim Lee for Superman’s new look, scripts for the stories, the original art from the lost story featuring art by Curt Swan and more! Plus: a complete reprint of the stories that started it all—the Superman stories Action Comics #1 and 2 from 1938!",
@@ -555,5 +583,5 @@ Route::get('/comics', function(){
         ]
     ];
     return view('pages.comics', compact('navLinks','dcComixLinks','shopLinks',
-    'dcLinks','sitesLinks' ));
+    'dcLinks','sitesLinks', 'comicsList','shops' ));
 })->name('guest.comics');
