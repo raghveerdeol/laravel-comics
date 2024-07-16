@@ -1,0 +1,36 @@
+
+.footer-link{
+    background-color: black;
+    background-image: url(../../img/footer-bg.jpg);
+    background-size: cover;
+    color: white;
+    height: 375px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10rem;
+    overflow: hidden;
+        div{
+            width: 50%;
+        };
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 3rem 0;
+        div{
+            width: calc((100% / 3) - 4px);
+        };
+}
+h2{
+    padding: 12px 0;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+li{
+    line-height: 20px;
+    font-size: 14px;
+    color: grey;
+}
