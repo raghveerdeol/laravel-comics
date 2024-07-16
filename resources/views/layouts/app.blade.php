@@ -9,9 +9,7 @@
 </head>
 <body>
     <main>
-        <h1>
-            Ciao
-        </h1>
+
     </main>
 </body>
 </html>
