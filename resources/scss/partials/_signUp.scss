@@ -1,0 +1,35 @@
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10rem;
+    background-color: #303030;
+}
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+}
+h2{
+    color: #0282f9;
+    margin-right: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+button{
+    background-color: #303030;
+    border: 2px solid #0282f9;
+    color: white;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+li{
+    margin-right: 1.5rem;
+}

@@ -34,3 +34,6 @@ a{
 footer#app-footer{
     @import './partials/_footer.scss';
 }
+#sign-up{
+    @import './partials/signUp';
+}

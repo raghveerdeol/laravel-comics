@@ -240,9 +240,36 @@ Route::get('/', function () {
         ],
 
     ];
+    $icons = [
+        [
+            'id'=> 1,
+            'img'=> 'resources/img/footer-facebook.png',
+            'active'=> false,
+        ],
+        [
+            'id'=> 2,
+            'img'=> 'resources/img/footer-twitter.png',
+            'active'=> false,
+        ],
+        [
+            'id'=> 3,
+            'img'=> 'resources/img/footer-youtube.png',
+            'active'=> false,
+        ],
+        [
+            'id'=> 4,
+            'img'=> 'resources/img/footer-pinterest.png',
+            'active'=> false,
+        ],
+        [
+            'id'=> 5,
+            'img'=> 'resources/img/footer-periscope.png',
+            'active'=> false,
+        ],
+    ];
 
     return view('pages.home', compact('navLinks','dcComixLinks','shopLinks',
-    'dcLinks','sitesLinks','shops' ));
+    'dcLinks','sitesLinks','shops', 'icons' ));
 })->name('guest.home');
 
 Route::get('/comics', function(){
@@ -582,6 +609,33 @@ Route::get('/comics', function(){
             "type" => "graphic novel",
         ]
     ];
+    $icons = [
+        [
+            'id'=> 1,
+            'img'=> 'resources/img/footer-facebook.png',
+            'active'=> false,
+        ],
+        [
+            'id'=> 2,
+            'img'=> 'resources/img/footer-twitter.png',
+            'active'=> false,
+        ],
+        [
+            'id'=> 3,
+            'img'=> 'resources/img/footer-youtube.png',
+            'active'=> false,
+        ],
+        [
+            'id'=> 4,
+            'img'=> 'resources/img/footer-pinterest.png',
+            'active'=> false,
+        ],
+        [
+            'id'=> 5,
+            'img'=> 'resources/img/footer-periscope.png',
+            'active'=> false,
+        ],
+    ];
     return view('pages.comics', compact('navLinks','dcComixLinks','shopLinks',
-    'dcLinks','sitesLinks', 'comicsList','shops' ));
+    'dcLinks','sitesLinks', 'comicsList','shops', 'icons'));
 })->name('guest.comics');
