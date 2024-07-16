@@ -25,7 +25,7 @@ Route::get('/', function () {
             'id'=> 2,
             'title'=> "comics",
             'url'=> "/comics",
-            'active'=> true,
+            'active'=> false,
         ],
         [
             'id'=> 3,
@@ -73,7 +73,7 @@ Route::get('/', function () {
             'id'=> 10,
             'title'=> "shop",
             'url'=> "/",
-            'active'=> false,
+            'active'=> true,
         ]
     ];
 
