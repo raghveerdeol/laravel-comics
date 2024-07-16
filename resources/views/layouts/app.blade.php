@@ -13,6 +13,7 @@
     <main>
         @yield('main-section')
     </main>
+    @include('partials.shop')
 
         @include('partials.footer')
 </body>

@@ -24,6 +24,9 @@ a{
     text-decoration: none;
     color: black;
 }
+#shop-card{
+    @import './partials/shop';
+}
 
 footer#app-footer{
     @import './partials/_footer.scss';

@@ -1,0 +1,22 @@
+
+div.cards{
+    background-color: #0282f9;
+    color: white;
+    text-transform: uppercase;
+    padding: 3rem 10rem;
+
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: calc((100% / 5) - 2px);
+    img{
+        width: 50px;
+    }
+}
