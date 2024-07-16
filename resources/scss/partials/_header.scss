@@ -1,0 +1,28 @@
+
+div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 10rem;
+    background-color: white;
+}
+section.main-logo{
+    width: 40%;
+}
+nav{
+    width: 60%;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+a{
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.active{
+    color: #0282f9;
+    border-bottom: 10px solid #0282f9;
+    padding-bottom: 25px;
+}
